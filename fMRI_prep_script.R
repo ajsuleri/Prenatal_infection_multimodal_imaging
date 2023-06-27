@@ -17,7 +17,7 @@ invisible(lapply(libraries, require, character.only = T))
 setwd("PUT_PATH_WHERE_YOU_KEEP_THE_DATA")
 wd <- getwd()
 
-df1 <- readRDS("within_between_fullCon_genr.rds") #matrix 
+df1 <- readRDS("within_between_fullCon_genr.rds") #matrix (see fMRI_matrix_extraction_script.R how this was calculated)
 df2 <- readRDS("sub-id_has_conMat.rds") #linking with subject id file 
 df3 <- read.csv("all_ses-F13_wei_Gordon_fsSC_corMatZ_8pAroma_graphMetrics_22aug2022.csv", header = T)
 df4 <- as.integer(gsub('sub-','', df2)) #extracting characters from matched string in order to get just numbers
