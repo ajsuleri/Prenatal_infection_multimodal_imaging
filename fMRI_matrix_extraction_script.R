@@ -2,6 +2,8 @@
 ########### This is the script for extracting within and between connectivity
 ##############################################################################
 
+#Project: Long-term effects of prenatal infection on the human brain: a prospective multimodal neuroimaging study (in the Generation R cohort)
+
 ################ read the data #########################
 # read the brain label data
 setwd("PUT_PATH_WHERE_YOU_KEEP_THE_DATA")
