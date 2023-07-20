@@ -314,14 +314,6 @@ dd[,names] <- lapply(dd[,names], factor)
 summary(dd)
 
 #calculate %prevalence of each infection type and put that in the dataframe
-trimester_df <- data.frame(
-  Infection <- as.factor(c("a", "b", "c","d", "e","f","g","h","i")),
-  Trimester_one <- as.numeric(c(55.5, 0.3, 17.4, 16.4, 2.6, 2.6, 0.1, 0.1, 0.1)),
-  Trimester_two <- as.numeric(c(54.9, 0.3, 15.3, 14.2, 2.3, 2.7, 0.2, 0.2, 0.2)),
-  Trimester_three <- as.numeric(c(51.7, 0.4, 15.9, 12.7, 3.5, 1.7, 0.1, 0.2, 0.1))
-)
-
-
 tri_df <- data.frame(
   Infection <- as.factor(c("a", "b", "c","d", "e","f","g","h","i")),
   Trimester_one <- as.numeric(c(55.5, 17.4, 16.4, 2.6,2.6, 0.3, 0.1, 0.1, 0.1)),
