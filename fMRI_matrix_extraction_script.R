@@ -49,7 +49,7 @@ wit_bet_Con <- lapply(id, function(i) {
             # create an empty matrix to fill in within and between connectivity
             Mat <- matrix(NA,length(labels_unique),length(labels_unique))
             Mat[lower.tri(Mat, diag=F)] <- unlist(between)
-            Mat[upper.tri(Mat, diag=F)] <- Mat[lower.tri(Mat, diag=F)] 
+            Mat[upper.tri(Mat, diag=F)] <- t(Mat)[upper.tri(Mat, diag=F)]
             
             # go through all the parcels to calculate the mean connectivity within each parcel
             con_within <- sapply(labels_unique, function(x) {mean(conmat[rownames(conmat) == x, colnames(conmat) == x], na.rm=TRUE)})
