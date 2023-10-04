@@ -2,7 +2,7 @@
 
 Hi everyone, 
 
-This repository contains the computer code for the manuscript: Long-term effects of prenatal infection on the human brain: a prospective multimodal neuroimaging study. Please find the full text article here: _Suleri, A., Cecil, C., Rommel, AS. et al. Long-term effects of prenatal infection on the human brain: a prospective multimodal neuroimaging study. Transl Psychiatry 13, 306 (2023). https://doi.org/10.1038/s41398-023-02597-x. _
+This repository contains the computer code for the manuscript: Long-term effects of prenatal infection on the human brain: a prospective multimodal neuroimaging study. Please find the full text article here: Suleri, A., Cecil, C., Rommel, AS. et al. Long-term effects of prenatal infection on the human brain: a prospective multimodal neuroimaging study. Transl Psychiatry 13, 306 (2023). https://doi.org/10.1038/s41398-023-02597-x.
 
 The script used data from the Generation R study: https://generationr.nl. Data from this study are available upon reasonable request to the director of the Generation R Study (generationr@erasmusmc.nl), subject to local, national, and European rules and regulations. 
 
